@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Council of People's Deputies",
+		"uniqueTo": "USSR",
+		"cost": 300,
+		"maintenance": 3,
+		"requiredTech": "Civil Service"
+		"uniques": ["[-10]% Unhappiness from [Population] [in this city]", 
+        "[+1 Culture, +1 Production] <when above [10] [Happiness]>", 
+        "[+1 Culture, +1 Production] <when above [20] [Happiness]>", 
+        "[+1 Culture, +1 Production] <when above [30] [Happiness]>", 
+        "[+1 Culture, +1 Production] <when above [40] [Happiness]>", 
+        "[+1 Culture, +1 Production] <when above [50] [Happiness]>"]
+	}, 
+	{
+		"name": "Land Military School",
+		"uniqueTo": "USSR",
+		"replaces": "Military Academy",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredBuilding": "Armory",
+		"uniques": ["New [Land] units start with [30] XP [in this city]", "Destroyed when the city is captured", 
+        "Soviet Military School", "Unavailable <in cities with a [Soviet Military School]> <in [non-[Capital]] cities>", 
+    ],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Naval Military School",
+		"uniqueTo": "USSR",
+		"replaces": "Military Academy",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredBuilding": "Armory",
+		"uniques": ["New [Water] units start with [30] XP [in this city]", "Destroyed when the city is captured", 
+	  		"Must be next to [Water]",
+        "Soviet Military School", "Unavailable <in cities with a [Soviet Military School]> <in [non-[Capital]] cities>", 
+    ],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Air Military School",
+		"uniqueTo": "USSR",
+		"replaces": "Military Academy",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredBuilding": "Armory",
+		"uniques": ["New [Air] units start with [30] XP [in this city]", "Destroyed when the city is captured", 
+        "Soviet Military School", "Unavailable <in cities with a [Soviet Military School]> <in [non-[Capital]] cities>", 
+    ],
+		"requiredTech": "Military Science"
+	},
+]
