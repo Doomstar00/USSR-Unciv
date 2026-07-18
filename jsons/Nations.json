@@ -39,17 +39,18 @@
         "[+5]% [Production] <when above [90] [Happiness]>", 
         "[+5]% [Production] <when above [100] [Happiness]>", 
         ],
-		"cities": ["Москва","Ленинград","Сталинград","Киев","Ташкент","Баку","Минск","Харьков","Тбилиси","Алма-ата","Одесса","Великий Новгород","Ульяновск","Ростов","Ярославль","Свердловск","Якутск","Владивосток","Смоленск","Оренбург",
-			"Красноярск","Хабаровск","Брянск","Калинин","Новосибирск","Магадан","Мурманск","Калининград","Иркутск","Чита","Куйбышев",
-			"Архангельск","Челябинск","Киров","Тобольск","Вологда","Омск","Астрахань","Курск","Саратов","Тула","Владимир","Пермь",
-			"Воронеж","Псков","Старая русса","Кострома","Горький","Суздаль","Молотов","Магнитогорск","Ворошилов",
-			"Чкалов","Советск"],
+		"cities": ["Moscow","Leningrad","Stalingrad","Kiev","Tashkent","Baku","Minsk","Kharkov","Tbilisi","Alma-Ata","Odessa",
+			"Novgorod","Ulyanovsk","Rostov","Yaroslavl","Sverdlovsk","Yakutsk","Vladivostok","Smolensk","Orenburg",
+			"Krasnoyarsk","Khabarovsk","Bryansk","Kalinin","Novosibirsk","Magadan","Murmansk","Kaliningrad","Irkutsk","Chita","Kuybishev",
+			"Arkhangelsk","Chelyabinsk","Kirov","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+			"Voronezh","Pskov","Starayarussa","Kostoma","Gorkiy","Suzdal","Molotov","Magnitogorsk","Voroshilov",
+			"Chkalov","Sovietsk"],
         "spyNames": [
-            "Штирлиц", 
-            "Агент 00", 
-            "Иван", 
-            "Алексей", 
-            "Елена", 
+            "Stierlitz", 
+            "Agent 00", 
+            "Ivan", 
+            "Alexei", 
+            "Elena", 
         ]
 	}
 ]
