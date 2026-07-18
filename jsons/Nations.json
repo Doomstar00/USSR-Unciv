@@ -1,8 +1,9 @@
 [
 	{
-		"name": "CCCP",
-		"leaderName": "Съезд советов",
-		"adjective": ["советский"],
+		"name": "USSR",
+		"leaderName": "Vladimir Lenin",
+		"adjective": ["Soviet"],
+		"personality": "USSR",
 		
 		"startIntroPart1": "Добро пожаловать в Союз Советских Социалистических Республик!",
 		
@@ -12,25 +13,43 @@
 		"introduction": "Вас приветствует Советский Союз. Мы хотим построить справедливый мир и надеемся на дружбу и сотрудничество.",
 		
 		"neutralHello": "Добро пожаловать.",
-		"neutralLetsHearIt": ["Что вы хотели?"],
-		"neutralNo": ["Нет."],
-		"neutralYes": ["Да."],
-
 		"hateHello": "Ваша политика до добра не доведёт.",
-		"hateLetsHearIt": ["Что вы хотели?"],
-		"hateNo": ["Нет."],
-		"hateYes": ["Да."],
+		"denounced": ".",
 		
-		"tradeRequest": "Мы предлагаем расширить наше взаимовыгодное сотрудничество.",
+		"tradeRequest": "Советское Государство предлагает вам обмен, во имя светлого будущего.",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
 
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,0],
-		"uniqueName": "Коммунизм",
-		"uniques": ["[-20]% Unhappiness from [Population] [in all cities]"],
-		"cities": ["Москва","Ленинград","Сталинград","Великий Новгород","Ульяновск","Ростов","Ярославль","Свердловск","Якутск","Владивосток","Смоленск","Оренбург",
+		"uniqueName": "Communism",
+		"uniques": ["[+5]% [Production] <when above [10] [Happiness]>", 
+        "[+5]% [Production] <when above [20] [Happiness]>", 
+        "[+5]% [Production] <when above [30] [Happiness]>", 
+        "[+5]% [Production] <when above [40] [Happiness]>", 
+        "[+5]% [Production] <when above [50] [Happiness]>", 
+        "[+5]% [Production] <when above [60] [Happiness]>", 
+        "[+5]% [Production] <when above [70] [Happiness]>", 
+        "[+5]% [Production] <when above [80] [Happiness]>", 
+        "[+5]% [Production] <when above [90] [Happiness]>", 
+        "[+5]% [Production] <when above [100] [Happiness]>", 
+        ],
+		"cities": ["Москва","Ленинград","Сталинград","Киев","Ташкент","Баку","Минск","Харьков","Тбилиси","Алма-ата","Одесса","Великий Новгород","Ульяновск","Ростов","Ярославль","Свердловск","Якутск","Владивосток","Смоленск","Оренбург",
 			"Красноярск","Хабаровск","Брянск","Калинин","Новосибирск","Магадан","Мурманск","Калининград","Иркутск","Чита","Куйбышев",
 			"Архангельск","Челябинск","Киров","Тобольск","Вологда","Омск","Астрахань","Курск","Саратов","Тула","Владимир","Пермь",
 			"Воронеж","Псков","Старая русса","Кострома","Горький","Суздаль","Молотов","Магнитогорск","Ворошилов",
-			"Чкалов","Советск"]
+			"Чкалов","Советск"],
+        "spyNames": [
+            "Штирлиц", 
+            "Агент 00", 
+            "Иван", 
+            "Алексей", 
+            "Елена", 
+        ]
 	}
 ]
